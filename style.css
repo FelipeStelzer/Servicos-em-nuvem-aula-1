@@ -1,0 +1,40 @@
+body {
+    background-repeat: no-repeat;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagens {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.imagens img {
+    width: 400px;
+}
+
+#imagem01{
+    width: 1200px;;
+}
+#imagem02{
+    width: 500px;;
+}
+#imagem03{
+    width: 400px;;
+}
